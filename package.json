@@ -1,0 +1,16 @@
+{
+  "name": "productos_backend",
+  "version": "1.0.0",
+  "description": "Backend for productos_cliente",
+  "main": "server.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Sebastian Varona",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moongose": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
