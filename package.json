@@ -4,13 +4,16 @@
   "description": "Backend for productos_cliente",
   "main": "server.js",
   "scripts": {
-    "start": ""
+    "start": "nodemon server.js"
   },
   "author": "Sebastian Varona",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
-    "moongose": "^1.0.0",
+    "moongose": "^1.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
